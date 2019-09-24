@@ -1,0 +1,20 @@
+.table-header {
+  &__heading-color {
+    background-color: #F9F9FA;
+  }
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  padding: 16px 34px;
+  border-bottom: 1px solid #DFE1E6;
+  p {
+    margin: 0;
+    color: #6B778C;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    line-height: 19px;
+  };
+  p:nth-child(n+2) {
+   text-align: right;
+  }
+}

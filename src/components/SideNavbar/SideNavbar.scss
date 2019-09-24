@@ -1,0 +1,14 @@
+.side-nav-bar {
+  width: 18%;
+  background-color: #F7F6F3;
+  border-right: 1px solid #DFE1E6;
+  display: flex;
+  flex-flow: column;
+
+ &__menu {
+    padding: 10px 0;
+    margin: 0;
+    flex-grow: 1;
+  }
+}
+

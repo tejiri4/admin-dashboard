@@ -1,0 +1,36 @@
+@import '../../assets/variables.scss';
+
+.toggle {
+  display: flex;
+  align-items: center;
+
+  &__mode {
+    position: relative;
+    background-color: $Fruit-salad;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 33px;
+    height: 14px;
+    cursor: pointer;
+    margin-right: 8px;
+
+    &__circle {
+      background-color: $White;
+      border: 1px solid $Fruit-salad;
+      border-radius: 100%;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: -2px;
+      transition: left 0.2s ease; 
+    }
+
+    .live {
+      left: -1px;
+    }
+
+    .test {
+      left: 17px;
+    }
+  }
+}

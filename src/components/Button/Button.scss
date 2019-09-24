@@ -1,0 +1,75 @@
+@import '../../assets/variables.scss';
+
+.button {
+  &__accept-payment {
+    padding: 39px 22px;
+    text-align: center;
+    
+    button {
+      background-color: rgba(103, 196, 98, 0.12);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+      box-shadow: 0 1px 2px 0 rgba(15, 15, 15, 0.1), inset 0 0 0 1px rgba(103, 196, 98, 0.3);
+      width: 196px;
+      height: 36px;
+      margin: 0 auto;
+      cursor: pointer;
+
+      &:focus {outline: 0}
+
+      img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+
+      span {
+        color: $Fern;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.08px;
+        line-height: 17px;
+        text-align: center;
+      }
+    }
+    
+  }
+
+  &__new-transfer {
+    border-bottom: 1px solid $Hawkes-blue;
+    padding: 24px 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    button {
+      background-color: $Fern;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      width: 132px;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &:focus {outline: 0}
+
+
+      p {
+        color: $White;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        text-align: center;
+        margin-right: 5px;
+      }
+      
+      span {
+        color: $White;
+      }
+    }
+  }
+}

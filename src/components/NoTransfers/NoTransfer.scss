@@ -1,0 +1,20 @@
+@import '../../assets//variables.scss';
+
+.no-transfer {
+  p:nth-child(1) {
+    color: $Astronaut;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    line-height: 27px;
+    text-align: center;
+  }
+  p:nth-child(2) {
+    color: $Astronaut;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.18px;
+    line-height: 27px;
+    text-align: center;
+  }
+}
