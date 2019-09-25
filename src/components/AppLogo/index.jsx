@@ -9,7 +9,7 @@ const AppLogo = () => (
       <div className="app-logo__icon">
         <p>B</p>
       </div>
-      <div>Business name </div>
+      <div className="business-name">Business name </div>
     </div>
 );
 

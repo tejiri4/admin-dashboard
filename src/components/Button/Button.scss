@@ -1,18 +1,18 @@
 @import '../../assets/variables.scss';
 
-.button {
+.button-component {
   &__accept-payment {
     padding: 39px 22px;
     text-align: center;
     
-    button {
+    .button {
       background-color: rgba(103, 196, 98, 0.12);
       display: flex;
       justify-content: center;
       align-items: center;
       border-radius: 3px;
       box-shadow: 0 1px 2px 0 rgba(15, 15, 15, 0.1), inset 0 0 0 1px rgba(103, 196, 98, 0.3);
-      width: 196px;
+      width: 80%;
       height: 36px;
       margin: 0 auto;
       cursor: pointer;
@@ -44,7 +44,7 @@
     justify-content: flex-end;
     align-items: center;
 
-    button {
+    .button {
       background-color: $Fern;
       border: 1px solid rgba(0, 0, 0, 0.2);
       border-radius: 3px;
